@@ -8,7 +8,39 @@
 </head>
 <body>
     <h1>Other Formatations</h1>
-    <h2>Source Code</h2>
-    <p></p>
+    <h2>Source Code / Pre Formatting</h2>
+    <p>The command document.getElementById('test') is written in Javascript language.</p>
+    <p>The command <code>document.getElementById('test')</code> is written in Javascript language.</p> <!--Written in this way the command line get better to view. Because the code tag make characters occupies the same space.-->
+    <code>
+        num = int(input('Input a integer number: '))
+        if num % 2 == 0:
+            print(f'The number {num} is even')
+        else:
+            print(f'The number {num} is odd')
+        print('End of the software code!')
+    </code> <!--If you just put the tag code this doesn't make the things visually organized! For make the things indented and organized you have to combine the tag code with the tag pre. In the code line below we make that:-->
+    <pre>
+        <code>
+    num = int(input('Input a integer number: '))
+    if num % 2 == 0:
+        print(f'The number {num} is even')
+    else:
+        print(f'The number {num} is odd')
+    print('End of the software code!')
+        </code>
+    </pre>
+<h2>Citations</h2>
+<p>Like a father of a friend said: <q>Computer is a fast dumb!</q></p>
+<h2>Complete Citations</h2>
+<p>Like Jeff Noble said in his book: HTML para Leigos</p>
+<Blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=pt-BR&gbpv=1&dq=jeff+noble+html&printsec=frontcover"> <!--This cite command is just to the browser knows that this citation below belong to this website address.-->>
+    Os arquivos HTML que produzem as páginas web são simplesmente documentos de texto, assim como os arquivos XHTML e CSS. Esse uso de documentos de texto é a razão para a web funcionar tão bem quanto funciona. O texto é uma linguagem universal dos computadores. Qualquer arquivo de texto que você crie em um computador com o Windows - incluindo qualquer arquivo HTML, XHTML ou CSS - funciona igualmente bem em um Mac ou em qualquer outro sistema operacional. 
+    Porém, as páginas web não são meramente documento de texto. Elas são feitas com um texto sem atenção especial à beleza chamado HTML, XHTML ou CSS. Cada um deles usa seu prórpio conjunto específico de instruções que você inclui (junto com seu conteúdo) dentro de arquivos de texto para especificar como uma página deve ficar e se comportar.
+</Blockquote>
+<h2>Abreviations</h2>
+<p>I'm studying <abbr title="Hyper Text Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr></p>
+<h2>Backwards Text</h2>
+<p><bdo dir="ltr">I'm learning how to create things in HTML</bdo></p> <!--Left to Right-->
+<p><bdo dir="rtl">I'm learning how to create things in HTML</bdo></p> <!--Right to Left-->
 </body>
 </html>

@@ -5,14 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Formatation</title>
+    <style>
+        mark{
+            background-color: lime;
+        }
+    </style>
 </head>
 <body>
     <h1>Main Formatation</h1>
     <h2>Black Font / Emphasis</h2>
-    <p>In this sentence we have a <b>black word</b> using the non-semantic &lt;b&gt; tag.</p>
+    <p>In this sentence we have a <b>black word</b> using the non-semantic &lt;b&gt; tag.</p> <!--This b tag, like all non-semantic tags, will be replaced and make room for the semantic tags. Because this is one of the principles of the HTML5 language: CSSs will be entire responsible for the stiles and the HTML for the meaning. -->>
     <p>In this sentence we have a <strong>emphatic term</strong> using the &lt;strong&gt; tag.</p>
     <h2>Italic / Emphatic</h2>
     <p>In this sentence we have a <i>italic term</i> using the non-semantic &lt;i&gt; tag.</p>
-    <p>In this sentence we have a <em>emphatic term</em> using the semantic &lt;em&gt; tag.</p> 
+    <p>In this sentence we have a <em>emphatic term</em> using the semantic &lt;em&gt; tag.</p>
+    <h2>Mark Text</h2> 
+    <p>We can also create a <mark style="background-color: blueviolet;">mark text</mark> using the &lt;mark&gt; tag.</p>
+    <p>In this other sentence we have another <mark>text marked</mark>. But this one, unlike the top text, is inherited from the center style color. In the header area.</p>
+    <h2>Big and Small Texts</h2>
+    <p>In this paragraph we are creating a <big>big</big> and a <small>small</small> text.</p> <!--The small tag is a semantic tag and unlike the big tag it is not useless! Probably because the small texts are present in some contracts and books and have the meaning of being observations.-->
+    <h2>Deleted Texts</h2>
+    <p>We can mark a <del>deleted text</del> to indicate that it has to be readed but not to be considered!</p>
+    <h2>Inserted Texts</h2>
+    <p>We can <ins>mark a text</ins> to indicate that it was inserted after the text was written </p>
+    <h2>Underlined Text</h2>
+    <p>We can <u>underlined a text</u> using the non-semantic &lt;u&gt; tag.</p>
+    <h2>Superscript Text</h2>
+    <p>To imput things like: x<sup>20</sup>+3</p>
+    <h2>Subscribed Text</h2>
+    <p>To imput things like: H<sub>2</sub>O</p>
 </body>
 </html>

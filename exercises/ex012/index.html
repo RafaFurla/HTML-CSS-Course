@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos with HTML5</title>
+</head>
+<body>
+    <h1>Inserting videos locally hosted</h1>
+    <p>This video is hosted in my own server.</p>
+    <video width="500" poster="images/limoes-capa.png" controls>
+        <source src="midia/videomp4.mp4" type="video/mp4">
+        <source src="midia/videom4v.m4v" type="video/mp4">
+        <source src="midia/videowebm.webm" type="video/webm">
+        <source src="midia/videoogv.ogv" type="video/ogg">
+        <p>Your brownser is not compatible with the video.</p>
+        <!--The order of the source tag is important. The browser will try to open the mp4 first, and if it's not possible it will try to open the nest file.-->
+    </video>
+    
+</body>
+</html>

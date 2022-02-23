@@ -14,5 +14,19 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Flexible image">
     </picture>
+    
+    <h1>Playing Audio</h1>
+    <p>Let's learn how to play a audio file in HTML code.</p>
+    <audio preload="matadata" controls loop>
+        <source src="media/to-loomis-to-love---the-mini-vandals.mp3" type="audio/mpeg">.
+        <source src="media/to-loomis-to-love---the-mini-vandals.ogg" type="audio/ogg">
+        <source src="media/to-loomis-to-love---the-mini-vandals.wav" type="audio/wav">
+        <p>Unfortunatly your browser don't run audio! Click here to download the audio file</p> 
+        <!--The order of the source tags are very important. Here the browser will try to play the mp3 file first. Then, if it coundn't it will try the ogg, and if it fails it will try to load the wav.-->
+    </audio>
+    <!--
+        Other way: 
+        <audio src="media/to-loomis-to-love---the-mini-vandals.mp3" preload="auto" autoplay></audio>
+    -->
 </body>
 </html>

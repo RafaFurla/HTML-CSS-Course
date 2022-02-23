@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Image</title>
+</head>
+<body>
+    <h1>Flexible Image</h1>
+    <p>Are you see the complete image? Try to expand your browser to have a complete experience! &#x1F9D9</p>
+    <picture>
+        <source media="(max-width: 780px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1230px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="natural">
+    </picture>
+</html>

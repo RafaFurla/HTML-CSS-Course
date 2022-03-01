@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External fonts</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('../ex018/fonts/Heart^Freaking^Tastic.otf') format('opentype'), 
+            url('../ex018/fonts/Heart^Freaking^Tastic.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /* 
+            - Format Types: 
+            - opentype (otf)
+            - truetype (ttf) 
+            - embedded-opentype
+            - truetype-aat (Apple Advance Typografy)
+            - svg
+            */
+        }     
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world!</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita odit sapiente cupiditate doloribus, optio sed dolores consequuntur sint, ab dicta id cumque perspiciatis non nemo dolor recusandae totam necessitatibus.</p>
+</body>
+</html>

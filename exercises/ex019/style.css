@@ -28,3 +28,15 @@ p {
     text-align: justify;
     text-align: left;
 }
+
+.basic {
+    background-color: red;
+    color: #08948d
+}
+.intermediate {
+    color: #045a56
+}
+
+.advanced {
+    color: #03413d
+}

@@ -22,13 +22,39 @@ h1 {
     font-style: normal;
     color:#039E89
 }
-div {
+.pai {
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 0rem;
+    padding: 0rem 0rem;
     text-align: center;
-    display: block;
-    color:black;
-    width: 300px;
 }
-
-/* Para colocar divs lado a lado seguir o artigo: https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b#:~:text=The%20most%20common%20way%20to,using%20inline%2Dblock%20css%20property.&text=The%20inline%2Dblock%20property%20on,like%20an%20inline%20element%20does. */ 
-
+.filho {
+    display: inline-block;
+    border: 1px solid rgba(255, 0, 0, 0);
+    padding: 1rem 1rem;
+    width: 300px;
+    height: 250px;
+    vertical-align: bottom;
+}
+.pai2 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 0rem;
+    padding: 0rem 0rem;
+    text-align: center;
+}
+.filho2 {
+    display: inline-block;
+    border: 1px solid rgba(255, 0, 0, 0);
+    padding: 1rem 1rem;
+    width: 300px;
+    height: 250px;
+    vertical-align: bottom;
+}
+.margem {
+    margin-bottom: 51px;
+}
+img {
+    width: auto;
+    height: 110%
+}
 /* Cores do projeto: FC5E05, 03AC68, 039E89 */

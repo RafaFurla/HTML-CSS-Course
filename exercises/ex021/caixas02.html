@@ -14,12 +14,12 @@
             background-color: white;
             margin: 10px;
             padding: 10px;
+            box-shadow: 3px /*(deslocamento horizontal)*/ 3px /*(deslocamento vertical)*/ 3px /*(nevoa na sombra)*/ 0px /*(espalhamento da sombra)*/ rgba(0, 0, 0, 0.3) /*(cor da sombra)*/;
         }
         nav {
             background-color: gray;
             color: white;
             padding: 3px;
-            box-shadow: 2px /*(deslocamento horizontal)*/ 2px /*(deslocamento vertical)*/ 2px /*(nevoa na sombra)*/ 2px /*(espalhamento da sombra)*/ rgba(0, 0, 0, 0.315) /*(cor da sombra)*/;
         }
         nav > a {
             margin-right: 10px;
@@ -34,6 +34,11 @@
             background-color: white;
             margin: 10px;
             padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 0px;
+            box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.3);
         }
         article{
             background-color: lightgray;
@@ -49,12 +54,17 @@
             text-align: center;
             margin: 10px;
             padding: 5px;
+            box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.3);
         }
         footer>p{
             margin: 0px;
         }
-        h1{
-            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.349);
+        div#ball{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -86,5 +96,6 @@
     <footer>
         <p>Developed by Furla</p>
     </footer>
+    <div id="ball"></div>
 </body>
 </html>

@@ -24,7 +24,11 @@ body {
 }
 h1 {
     text-align: center;
-    line-height: 80%;
+    line-height: 100%;
+    margin-top:80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     font-family: fonte_logo;
     src: url(fontes/OPTIEton-Bold.otf) format('opentype');
     font-weight: normal;
@@ -45,21 +49,35 @@ div#destaque {
     color:#FC5E05;
     display: inline-block;
     border: 0px solid rgba(255, 0, 0, 0);
-    padding: 0rem 0rem;
-    width: 700px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    width: 450px;
     height: 250px;
-    vertical-align: baseline;
+    vertical-align: bottom;
 }
 .pai {
     border: 1px solid rgba(0, 0, 0, 0);
-    margin: 0rem;
-    padding: 0rem 0rem;
+    width: auto;
+    height: auto;
     text-align: center;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    margin-top:1px;
+    margin-right: 1px;
+    margin-bottom: 25px;
+    margin-left: 1px;
 }
 .filho {
     display: inline-block;
     border: 1px solid rgba(255, 0, 0, 0);
-    padding: 1rem 1rem;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
     width: 300px;
     height: 250px;
     vertical-align: bottom;

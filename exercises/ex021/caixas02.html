@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav {
+            background-color: gray;
+            color: white;
+        }
+        nav > a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: white;
+        }
+        nav>a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 1px 18px 1px 18px;
+            text-align: left;
+        }
+        aside{
+            background-color: rgb(170, 169, 169);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="subjects"></section>
+        <p>Sports | Politics | Tecnology</p>
+        <section id="news">
+            <article>
+                <h2>News About Brazil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In cumque corporis eius cupiditate unde dolore quis, accusantium quos assumenda odit minus repellendus ex illo, dolorem provident numquam laborum doloribus expedita.</p>
+                <aside>
+                    <p>Article written by José da Silva</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by Furla</p>
+    </footer>
+</body>
+</html>

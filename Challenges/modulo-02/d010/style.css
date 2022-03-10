@@ -2,49 +2,125 @@
 @font-face {
 	font-family: 'robot';
 	src: url('fontes/idroid.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+}
+@font-face {
+	font-family: 'bebas';
+	src: url('fontes/BebasNeue-Regular.ttf') format('truetype');
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #EBE5C5;
+    margin: 0px;
 }
-header{
+
+
+body > header{
     background-image: linear-gradient(180deg, #2EA665, #06381C);
-    color: white;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
     text-align: center;
 }
-header > nav {
-    text-align: left;
-}
-nav > a {
-    text-decoration: none;
-    color: #83E1AD;
-    margin-right: 10px;
-}
-main{
-    background-color: white;
-    width: 80%;
+h1#header-title {
+	font-family: 'bebas','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    text-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.27);
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
-    padding-top: 10px;
-    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+body > header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+}
+body > header > nav {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+body > header > nav > a > strong {
+    font-family: sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #83E1AD;
+    margin-right: 20px;
+}
+
+
+body > main{
+    background-color: white;
+    width: 82.5%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+#main-title {
+    font-family: "robot";
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #063D1E;
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 10px;
     padding-bottom: 0px;
     padding-left: 20px;
 }
-main > h1,h2,h1 {
-    font-family: 'robot';
-    src: url('fontes/idroid.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    color: #063D1E;
+body > main > section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    text-align: justify;
+    text-indent: 25px;
+    margin: 0px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
 }
-main > h2 {
+p#p-end-main {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    text-align: justify;
+    text-indent: 25px;
+    margin-bottom: 0px;
+}
+body > main > section > p > a > strong {
+    text-decoration: none;
+    background-color: #83E1AD;
+    padding: 4px;
+}
+section#video {
+    background-color: #063D1E;;
+    margin: 0px;
+    text-align: center;
+}
+body > main > section > iframe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main-h2{
+    font-family: "robot";
+    font-size: 1.3em;
+    font-weight: 100;
+    color: #0a6431;
     background-image: linear-gradient(90deg, #83E1AD, white);
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: -1px;
+}
+strong{
+    color: #063D1E;
 }

@@ -57,7 +57,7 @@ body > header > nav > a > strong {
 
 body > main{
     background-color: white;
-    width: 82.5%;
+    width: 82.3%;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
@@ -78,7 +78,7 @@ body > main > section > p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 200%;
     text-align: justify;
-    text-indent: 25px;
+    text-indent: 26px;
     margin: 0px;
     padding-top: 15px;
     padding-right: 20px;
@@ -95,7 +95,10 @@ p#p-end-main {
 body > main > section > p > a > strong {
     text-decoration: none;
     background-color: #83E1AD;
-    padding: 4px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-left: 6px;
 }
 section#video {
     background-color: #063D1E;;
@@ -117,10 +120,40 @@ body > main > section > iframe {
     padding-bottom: 0px;
     padding-left: 8px;
     margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: -1px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
 }
 strong{
     color: #063D1E;
+}
+
+section#plus {
+    background-color:#83E1AD;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#h1-plus {
+    background-color:#1A5C37;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+div#father {
+    display: block;
+}
+div.son {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
 }

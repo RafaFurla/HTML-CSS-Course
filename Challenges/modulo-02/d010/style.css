@@ -75,6 +75,17 @@ body > header > nav > a > strong {
     color: #83E1AD;
     margin-right: 20px;
 }
+body > header> nav > a > strong:hover{
+    background-color: #2FA866;
+    color: #063D1E;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
 /* ----------------------MAIN---------------------------- */
 #main-title {
     font-family: "robot";
@@ -88,9 +99,17 @@ body > header > nav > a > strong {
     padding-left: 20px;
 }
 section#video {
-    max-height: 600px;
     background-color: #063D1E;
-    text-align: center;
+    padding-bottom: 60%;
+    position: relative;
+    
+}
+section > iframe {
+    position: absolute;
+    top: -20px;
+    left: 5%;
+    width: 90%;
+    height: 86%;
 }
 .image {
     width: 96.2%;  
@@ -154,6 +173,7 @@ section#plus {
     margin-bottom: 0px;
     margin-left: 20px;
     border-radius: 10px;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.28);
 }
 #h1-plus {
     background-color:#1A5C37;
@@ -170,14 +190,16 @@ section#plus {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-div#father {
-    width: auto;
-    height: auto;
+div {
+    display: block;
+    height: 150px;
+    min-width: 400px;
 }
-div.son {
-    display: inline-block;
-    margin-left: 0%;
-    margin-right: 0%;
+ul{
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+    padding-left: 30px;
+    text-align: left;
 }
 .p-end {
     line-height: 200%;
@@ -196,16 +218,24 @@ aside {
 }
 
 aside > p {
-    text-indent: 10px;
+    text-indent: 20px;
     padding-top: 0px;
-    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    padding-left: 20px;
     text-align: center;
+    line-height: 200%;
+    text-align: justify;
 }
 /* -----------------------FOOTER--------------------------- */
 footer {
     background-color: #063D1E;
     color: white;
     text-align: center;
+}
+footer > p > a > strong:hover {
+    color: #83E1AD;
+    text-decoration: underline;
 }
 footer > p {
     font-size: 0.8em;

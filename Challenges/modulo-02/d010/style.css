@@ -48,6 +48,9 @@ h1#header-title {
     padding-bottom: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.27);
 }
+.anav:hover {
+    text-decoration: none;
+}
 body > header{
     background-image: linear-gradient(180deg, #2EA665, #06381C 85%);
     text-align: center;
@@ -76,6 +79,7 @@ body > header > nav > a > strong {
     margin-right: 20px;
 }
 body > header> nav > a > strong:hover{
+    text-decoration: none;
     background-color: #2FA866;
     color: #063D1E;
     padding-top: 10px;
@@ -85,6 +89,7 @@ body > header> nav > a > strong:hover{
     margin-left: -10px;
     margin-right: 10px;
     border-radius: 5px;
+    transition-duration: 0.3s;
 }
 /* ----------------------MAIN---------------------------- */
 #main-title {
@@ -120,7 +125,7 @@ section > iframe {
     font-size: 1.3em;
     font-weight: 100;
     color: #0a6431;
-    background-image: linear-gradient(90deg, #83E1AD, white);
+    background-image: linear-gradient(90deg, #83E1AD, transparent);
     padding-top: 0px;
     padding-right: 8px;
     padding-bottom: 0px;

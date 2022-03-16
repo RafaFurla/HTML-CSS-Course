@@ -31,53 +31,60 @@ header {
     text-align: center;
     padding-top: 50px;
     padding-right: 70px;
-    padding-bottom: 40px;
     padding-left: 70px;
 }
 header > h1 {
-    display: inline;
     color: white;
+    font-variant: small-caps;
     font-family: var(--fonte-destaque);
     font-weight: 100;
-    font-size: 6em;
-}
-h1.first-letter {
-    font-size: 8em;
+    font-size: 10vw;
 }
 header > p {
     font-family: var(--fonte-padrão);
+    padding-bottom: 40px;
 }
 /*---------------------------MAIN----------------------------*/
 main {
     font-family: var(--fonte-poesia);
-    font-size: 3em;
+    font-size: 3.5vw;
+    line-height: 2em;
 }
 main > article {
     background-color: white;
     color: black;
-    padding: 50px 30px 150px 30px;
+    padding: 10vh 30px 10vh 30px;
+}
+article > p {
+    padding-bottom: 2em;
 }
 /*---------------------------IMAGENS 1 e 2----------------------------*/
 section#imagem1 {
     background-image: url(../imagens/background001.jpg);
+    background-position: center right;
 }
-
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 section.imagem {
     display: block;
-    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 50px 30px;
+    padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
 }
 div.texto-imagem {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.50);
+    text-shadow: 1px 1px 0px black;
     color: white;
-    width: fit-content;
-    height: fit-content;
+    padding: 5px;
 }
 section#imagem2 {
     background-image: url(../imagens/background002.jpg);
+    background-position: bottom left;
 }
 /*---------------------------FOOTER----------------------------*/
 footer {
